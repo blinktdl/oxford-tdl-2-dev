@@ -30,11 +30,15 @@
 		},
 
 		onActivityDataLoaded: function(data) {
+			console.log('onActivityDataLoaded:');
 			console.log(data);
+			console.log(JSON.stringify(data));
 		},
 
 		onCourseDataLoaded: function(data) {
+			console.log('onCourseDataLoaded:');
 			console.log(data);
+			console.log(JSON.stringify(data));
 		}
 	};
 
