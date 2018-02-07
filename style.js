@@ -56,7 +56,17 @@
 			style.onCourseDataLoaded(data);
 		});
 	})
+	const htmlDOM = `
+		<div id="oup_tdl_loading_screen">
+			<div class="oup_tdl_spinner">
+				<div class="oup_tdl_bounce1"></div>
+				<div class="oup_tdl_bounce2"></div>
+				<div class="oup_tdl_bounce3"></div>
+			</div>
+		</div>
+	`;
 
+	$('body').append( htmlDOM );
 })(blink);
 
 var OupTdlStyle =
