@@ -62,7 +62,7 @@
 
 })(blink);
 
-var OupTdlStyle =
+console.log("rririr");var OupTdlStyle =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
