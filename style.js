@@ -35,7 +35,6 @@
 			// console.log('onActivityDataLoaded:');
 			// console.log(data);
 			// console.log(JSON.stringify(data));
-			OupTdlStyle.init(data);
 			console.log("TEST");
 		},
 
