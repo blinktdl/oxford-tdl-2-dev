@@ -29,6 +29,8 @@
 			}).bind(this));
 
 			//OupTdlStyle.showLoading();
+			console.log("INIT");
+			
 		},
 
 		onActivityDataLoaded: function(data) {
