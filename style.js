@@ -62,7 +62,7 @@
 
 })(blink);
 
-console.log("rririr");var OupTdlStyle =
+console.log("actualizado 1");var OupTdlStyle =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
