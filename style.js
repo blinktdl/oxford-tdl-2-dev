@@ -50,13 +50,23 @@
 
 	blink.theme.styles['oxford-tdl-2-dev'] = OxfordTDL2Dev;
 
-	blink.events.on('loadSeguimientoCurso', function() {
-		// Ejemplo carga de datos del libro en el toc del curso.
+	// blink.events.on('loadSeguimientoCurso', function() {
+	// 	// Ejemplo carga de datos del libro en el toc del curso.
+	// 	blink.getCourse(idcurso).done(function(data) {
+	// 		var style = new OxfordTDL2Dev;
+	// 		style.onCourseDataLoaded(data);
+	// 	});
+	// });
+	blink.events.on('digitalbook:bpdfloaded', function() {
+		// Ejemplo carga de datos del curso desde un libro digital.
 		blink.getCourse(idcurso).done(function(data) {
-			var style = new OxfordTDL2Dev;
-			style.onCourseDataLoaded(data);
+				var style = new OxfordTDL2Dev;
+				style.onCourseDataLoaded(data);
 		});
-	})
+	});
+
+
+	
 
 })(blink);
 var OupTdlStyle =
